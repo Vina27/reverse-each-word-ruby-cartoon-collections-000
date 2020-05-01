@@ -3,7 +3,7 @@
   #new_array = []
   #words_array.each {|word| new_array << word.reverse}
   #return new_array.join(' ')
-#end 
+#end
   #new_array << word.reverse
   #end
 #return new_array.join(' ')
@@ -15,3 +15,6 @@ words_array = sentence.split(' ')
 new_array = words_array.collect {|word| word.reverse}
 new_array.join(' ')
 end
+
+reverse_each_word(sentence)
+words_array = words_array(sentence.string)
