@@ -2,7 +2,7 @@
   #words_array = sentence.split(' ')
   #new_array = []
   #words_array.each {|word| new_array << word.reverse}
-  #return new_array.join(' ')
+  #return new_array.join(', ')
 #end
   #new_array << word.reverse
   #end
