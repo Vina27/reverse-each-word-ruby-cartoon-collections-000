@@ -18,5 +18,6 @@ end
 
 reverse_each_word(sentence)
 words_array = sentence.split(' ')
+new_array = []
 sentence.each do |word|
-  word.reverse 
+  word.reverse
