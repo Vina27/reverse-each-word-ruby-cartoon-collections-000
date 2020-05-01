@@ -20,4 +20,4 @@ reverse_each_word(sentence)
 words_array = sentence.split(' ')
 new_array = []
 words_array = new_array.each {|word| new_array << word.reverse}
-  
+new_array.join(' ')
