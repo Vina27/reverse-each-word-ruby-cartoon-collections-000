@@ -17,4 +17,4 @@ new_array.join(' ')
 end
 
 reverse_each_word(sentence)
-words_array = sentence.split('')
+words_array = sentence.split(' ')
